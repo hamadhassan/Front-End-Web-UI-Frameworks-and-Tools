@@ -1,3 +1,7 @@
+body{
+    padding: 50px 0px 0px 0px ;
+    z-index: 0;
+ }
 .jumbotron{
     background: #9575CD;
     color: antiquewhite;
@@ -7,13 +11,20 @@
 .navbar-dark{
     background-color: #512DA8;
  }
-body{
-    padding: 50px 0px 0px 0px ;
-    z-index: 0;
- }
 .about{
     margin: 70px auto;
 }
 .about p{
     padding: 70px 0px 0px 0px ;
 }
+.footer{
+     background-color: #D1C4E9;
+     margin:0px auto;
+     padding: 20px 0px 20px 0px;
+ }
+.history{
+     margin: 80px auto 80px auto;
+ }
+.content{
+     margin: 0px auto 20px auto;
+ }
