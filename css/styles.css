@@ -8,6 +8,12 @@ body{
     padding: 70px 30px 70px 30px;
     margin: 0 auto;
  }
+ .row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
 .navbar-dark{
     background-color: #512DA8;
  }
@@ -28,3 +34,8 @@ body{
 .content{
      margin: 0px auto 20px auto;
  }
+ address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
