@@ -37,7 +37,8 @@
           
         </div>
     </nav>
-
+    
+    <!--Login Model-->
     <div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content">
             <!-- Modal content-->
@@ -74,6 +75,69 @@
             </div>
         </div>
     </div>
+    <!--Seat Reserved Table-->
+    <div id="reservedTableModel" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Reserve table </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <p class="col-12 col-md-2">Number of Guests</p>
+                            <div class="form-check form-check-inline col-md-6">
+
+                            <input class="form-check-input" type="radio" name="1" id="1">
+                            <label class="form-check-label" for="1"> 1&nbsp;</label>
+
+                            <input class="form-check-input" type="radio" name="2" id="2">
+                            <label class="form-check-label" for="2"> 2&nbsp;</label>
+
+                            <input class="form-check-input" type="radio" name="3" id="3">
+                            <label class="form-check-label" for="3"> 3&nbsp;</label>
+
+                            <input class="form-check-input" type="radio" name="4" id="4">
+                            <label class="form-check-label" for="4"> 4 &nbsp;</label>
+
+                            <input class="form-check-input" type="radio" name="5" id="5">
+                            <label class="form-check-label" for="5"> 5&nbsp;</label>
+
+                            <input class="form-check-input" type="radio" name="6" id="6">
+                            <label class="form-check-label" for="6"> 6&nbsp;</label>
+                            </div>  
+                         </div>
+                        
+                          
+
+                            <div class="form-row mt-3">
+                                <label for="dateandtime" class="col-md-2 col-form-label">Date and Time</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="date" name="date" placeholder="Date" >
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="time" name="time" placeholder="Time" >
+                                </div>
+                            </div>
+                            <!---->
+                          
+                            <div class="form-row float-left mt-3">
+                                <div class="btn-group " role="group">
+
+                                    <button type="button" class="btn btn-secondary btn-lg ml-5" data-dismiss="modal">Cancel</button>
+                                </div>
+                                <div class="btn-group " role="group">
+                                    <button type="submit" class="btn btn-primary btn-lg ml-1" >Reserve</button>        
+                                
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <header class="jumbotron">
         <div class="container">
@@ -82,20 +146,27 @@
                     <h1>Ristorante con Fusion </h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
+                <!--Image-->
                 <div class="col-12  col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid" alt="">
-                     <div class="col-12 col-sm align-self-center">
-                        <a role="button" class="btn btn-block nav-link btn-warning"
-                        data-toggle="tooltip" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>"
-                        data-placement="bottom" href="#reservetable">Reserve Table</a>
-                  
-                    </div>
+                </div>
+                <!--Button-->
+                
+                <!--<div class="col-12 col-sm align-self-center">
+                <a role="button" class="btn btn-block nav-link btn-warning"
+                data-toggle="tooltip" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>"
+                data-placement="bottom" data-toggle="model" data-target="#reservedTableModel">Reserve Table</a>
+                 </div> -->
+                <div class="col-12 col-sm align-self-center">
+                    <a role="button" class="btn btn-block btn-warning" data-toggle="modal" data-target="#reservedTableModel">
+                    Reserve Table
+                    </a>
                 </div>
               
             </div>
         </div>
     </header>
-    
+    <!--carousel
     <div class="container">
         <div class="row row-content">
             <div class="col">
@@ -143,6 +214,8 @@
                 </a>
              </div>
         </div>
+        -->
+        <!--First-->
         <div class="row row-content align-items-center">
                 <div class="col-12 col-sm-4 order-sm-last col-md-3">
                     <h3>Our Lipsmacking Culiary Creations </h3>
