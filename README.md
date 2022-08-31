@@ -11,3 +11,6 @@ Associate Professor
 
 ## Bio
 Jogesh is an Associate Professor of Computer Science and Engineering at the School of Engineering, The Hong Kong University of Science and Technology. He received his Ph.D. in Electrical Engineering from Duke University in 1991.
+
+## Course Certificate
+![Coursera XV378SFPELR3_page-0001](https://user-images.githubusercontent.com/96945594/187727632-ae8154de-c7a7-4314-a4be-a45d3eb37008.jpg)
